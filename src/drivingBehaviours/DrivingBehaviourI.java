@@ -3,14 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package strategypattern;
+package drivingBehaviours;
 
 /**
  *
  * @author 1500825
  */
-public class Chopper extends Vehicle{
-    public Chopper(){
-        flyingBehaviour = new FlyWithRotor(); 
-    }
+public interface DrivingBehaviourI {
+    void drive(); 
 }

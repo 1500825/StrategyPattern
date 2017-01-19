@@ -3,15 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package strategypattern;
+package drivingBehaviours;
 
 /**
  *
  * @author 1500825
  */
-public class FlyWithWings implements FlyingBehaviour{
-    @Override
-    public void fly(){
-        System.out.println(" User wings! ");
+public class DriveOnRunway implements DrivingBehaviourI{
+    @Override 
+    public void drive(){
+        System.out.println(" I am driving on the runway! ");
     }
 }
